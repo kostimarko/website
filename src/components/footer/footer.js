@@ -21,7 +21,7 @@ const AnimatedContainer = posed.div({
   },
 });
 
-const Footer = ({ title, textColor }) => (
+const Footer = ({ textColor }) => (
   <AnimatedContainer style={{ flex: 1 }}>
     <Container>
       <p style={{ color: textColor }}>From Russia with Love</p>
@@ -31,6 +31,7 @@ const Footer = ({ title, textColor }) => (
 
 Footer.propTypes = {
   title: PropTypes.string,
+  textColor: PropTypes.string,
 };
 
 export default Footer;
