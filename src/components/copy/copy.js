@@ -8,6 +8,7 @@ const Copy = ({ children, textColor }) => {
 
 Copy.propTypes = {
   children: PropTypes.string.isRequired,
+  textColor: PropTypes.string,
 };
 
 export default Copy;
