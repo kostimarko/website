@@ -24,6 +24,7 @@ const Layout = ({ children, textColor }) => (
 Layout.propTypes = {
   children: PropTypes.node,
   data: PropTypes.object,
+  textColor: PropTypes.string,
 };
 
 export default Layout;
