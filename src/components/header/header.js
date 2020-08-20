@@ -15,6 +15,7 @@ const Header = ({ title, textColor }) => (
 
 Header.propTypes = {
   title: PropTypes.string.isRequired,
+  textColor: PropTypes.string,
 };
 
 export default Header;
