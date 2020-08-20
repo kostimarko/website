@@ -8,6 +8,7 @@ const Title = ({ children, textColor }) => {
 
 Title.propTypes = {
   children: PropTypes.string.isRequired,
+  textColor: PropTypes.string,
 };
 
 export default Title;

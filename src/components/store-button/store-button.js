@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Button } from './button.css';
 
 const StoreButton = props => {
@@ -10,6 +11,10 @@ const StoreButton = props => {
       }
     />
   );
+};
+
+StoreButton.propTypes = {
+  ButtonType: PropTypes.string,
 };
 
 export default StoreButton;

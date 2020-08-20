@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Link } from 'gatsby';
 
 const androidLink =
   'https://upload.wikimedia.org/wikipedia/commons/c/cd/Get_it_on_Google_play.svg';

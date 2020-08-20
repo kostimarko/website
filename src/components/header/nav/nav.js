@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import { Container } from './nav.css';
 
@@ -23,5 +24,9 @@ const Nav = ({ textColor }) => (
     </ul>
   </Container>
 );
+
+Nav.propTypes = {
+  textColor: PropTypes.string,
+};
 
 export default Nav;

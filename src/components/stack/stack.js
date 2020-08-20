@@ -27,6 +27,8 @@ const Stack = ({ stack, textColor }) => {
 
 Stack.propTypes = {
   children: PropTypes.string,
+  textColor: PropTypes.string,
+  stack: PropTypes.object,
 };
 
 export default Stack;

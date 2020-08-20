@@ -1,12 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Box from 'components/box';
 import Paragraph from 'components/paragraph';
 import TwoColumns from 'components/twoColumns';
 import Img from 'gatsby-image';
 
-const Intro = props => {
-  const { description, image, title } = props;
-  console.log(props);
+const Intro = ({ description, image, title }) => {
   return (
     <TwoColumns Direction="row">
       <div style={{ flex: 1 }}>
@@ -19,5 +18,11 @@ const Intro = props => {
       </div>
     </TwoColumns>
   );
+};
+
+Intro.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+  image: PropTypes.object,
 };
 export default Intro;
