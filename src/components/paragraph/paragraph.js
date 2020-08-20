@@ -14,6 +14,8 @@ const Paragraph = ({ children, textColor, small }) => {
 
 Paragraph.propTypes = {
   children: PropTypes.string.isRequired,
+  textColor: PropTypes.string,
+  small: PropTypes.string,
 };
 
 export default Paragraph;
