@@ -43,7 +43,7 @@
     "gatsby-source-filesystem": "^2.1.18",
     "gatsby-source-medium": "^2.1.4",
     "gatsby-transformer-json": "^2.2.5",
-    "gatsby-transformer-remark": "^2.6.19",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.2.12",
     "intersection-observer": "^0.7.0",
     "lottie-web": "^5.5.7",
